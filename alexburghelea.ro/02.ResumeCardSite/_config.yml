@@ -5,7 +5,7 @@ favicon: /assets/img/face.JPG
 baseurl: 
 url: 
 rss_url: /pages/atom.xml
-google_analytics:
+google_analytics: UA-90033989-1
 
 # Build settings
 markdown: kramdown
@@ -119,13 +119,13 @@ author:
         value: Airplanes, Driving, Swimming
   programmingSkills:
     - skill1:
-      name: Java/Java EE, Spring, Hibernate
+      name: Java/Java EE, Spring,
       percentage: 90%
     - skill2:
       name: Maven, Git, Junit, Mockito
       percentage: 85%
     - skill3:
-      name: Netflix Stack (Histrix, Archaius)
+      name: Hibernate, Netflix Stack (Histrix, Archaius)
       percentage: 70%
     - skill4:
       name: Groovy on Grails, C/C++, Docker, Cassandra, Spark
