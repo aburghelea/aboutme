@@ -2,10 +2,8 @@
 title: Alexandru Burghelea
 description: aburghelea's CV
 favicon: /assets/img/face.JPG
-baseurl: 
-url: 
-rss_url: /pages/atom.xml
-google_analytics: UA-90033989-1
+baseurl:
+url:
 
 # Build settings
 markdown: kramdown
@@ -20,51 +18,87 @@ author:
   email: me [at] alexburghelea [punct] ro
   link: http://www.alexburghelea.ro
   github: aburghelea
-  facebook: alexandru.burghelea
   linkedin: aburghelea
-  stackoverflow: 1221291
-  description: "I am a software developer and IT enthusiast based in Bucharest, Romania. I have a broad range of experience and a passion for technology in business. On the other side, I fool around and I'm TV Series addict. I'm passionate about military airplanes and public speaking.
-               <br/>Long term objective: continue to work on things that i like and maybe help develop the new generation of Airplane Autopilot System.
-               <br/><br/><strong>PS: I'm an engineer, I acknowledge that spellchecking is my nemesis. If you see something wrong or typos... shot me an email and I'll fix it. </strong>"
+  description: >
+    I am a software developer and IT enthusiast based in Bucharest, Romania. I am experienced with a broad range of
+    software tools and share my passion for technology in business. Nevertheless, I fool around and I'm a TV Series
+    addict. I'm passionate about military airplanes and public speaking.
+    <br/>
+    Long term objective: continue to work on things that I truly enjoy and maybe help develop the new generation of
+    Airplane Autopilot System.
+    <br/><br/>
+    <strong>I'm an engineer, I acknowledge that spellchecking is my Achilles’ heel. If you see something wrong or
+    typos... shoot me an email and I'll fix it.</strong>
 
   workHistory:
-    - work1:
+    - work5:
+      company: Playtika
+      location: Bucharest, Romania
+      title: Java Developer
+      started: 2021
+      duration: Feb. 2021
+      description: >
+        Transform specs into code and documentation
+      technologies: Spring Cloud, Netflix Stask, Java 8/10/11
+    - work4:
       company: Adswizz
       location: Bucharest, Romania
-      title: Sr. Java Developer
-      started: Feb. 2015
-      duration: Feb. 2015 - Present
-      description: I was responsible with developing and maintaining multiple applications used in a cloud micro-service architecture. My task varied from implementing distributed ad-serving ad collection and selection, using as input both in-company data and also integrations with external partners, to repairing legacy features. In the same time I was involved in estimating new projects, fixing production issues and improving the internal processes.
-      technologies: Spring Cloud, MySQL, Hystrix, Archaius, Rx.Java, AWS, Java, Docker, Camel, Java 8
-    - work2:
-      company: Endava
-      location: Bucharest, Romania
-      title: People Manager
-      started: 2014
-      duration: Aug. 2014 - Feb. 2015
-      description: I was responsible with motivating, evaluating and agreeing the development objectives for 4 direct reports. My responsibilities were to align the company objectives with the personal objectives of the direct reports in order to help them in their professional growth. I had to offer constant feedback on the progress done so that to ensure good motivation and best performances from the employees that I have managed
+      title: Sr. Java Developer / Technical Lead
+      started: 2015
+      duration: Feb. 2015 - Feb. 2021
+      description: >
+        I was responsible with developing and maintaining multiple applications used in a cloud micro-service
+        architecture. My task varied from implementing distributed ad-serving ad collection and selection, using as
+        input both in-company data and integrations with external partners as well, to repairing legacy features. At
+        the same time I was involved in estimating new projects, fixing production issues and improving the internal
+        processes.
+        <br/></br>
+        Starting with Jan. 2019 I was promoted to Technical Lead and had to drink coffee, estimate proposed projects,
+        drink coffee, plan the roadmap, drink coffee, design the ongoing projects and agree on integration points with
+        other teams, drink coffee, coach colleagues, drink coffee twice just in case production starts acting up and it
+        needs to be fixed ASAP.
+      technologies: Spring Cloud, Hollow, Hystrix, Archaius, Cadence, MySQL/MariaDB, Rx.Java, AWS, Java, Docker, Camel, Java 8
     - work3:
       company: Endava
       location: Bucharest, Romania
-      title: Sr. Java Developer
+      title: Sr. Java Developer / People Manager
       started: 2013
       duration: Jul. 2013 - Feb. 2015
-      description: I lead a team of 4 developers in developing a batch financial application along with other 2 distributed teams. My responsibilities included coordinating the local team and maintaining in contact with the client in order to deliver high quality products.I have coordinated a team of 5 interns in developing a presentation website with CMS functionalities for an important business park based in Bucharest. I have also organized a Graduates Programme and also holding trainings for them . I currently work for an international, cloud based service provider with clients ranging from financial institutions to government agencies. My tasks include developing maven plugins, modifying existing ones, developing modules in Spring and securing them.
+      description: >
+        I led a team of 4 developers in developing a batch financial application along with other 2 distributed teams.
+        My responsibilities included coordinating the local team and maintaining contact with the client in order to
+        deliver high quality products. I have coordinated a team of 5 interns in developing a presentation website with
+        CMS functionalities for an important Bucharest-based business park. I also organised a Graduates Program and was
+        responsible for holding training sessions for it. Previously, I worked for an international, cloud based service
+        provider with clients ranging from financial institutions to government agencies. My tasks included developing
+        maven plugins, modifying existing ones, developing modules in Spring and securing them.
+        <br/><br/>
+        Starting with Aug. 2014 I was also responsible with motivating, evaluating and agreeing on the development
+        objectives for 4 direct reports as part of my additional role of People Manager. My responsibilities were to
+        align the company objectives with the personal objectives of the direct reports in order to help them in their
+        professional growth. I had to offer constant feedback on the progress done in order to ensure good motivation
+        and best performances from the employees that I have managed.
       technologies: Java, Spring, Hibernate, JSP, Mockito, Vagrant, Docker, ExtJS, Cassandra, Drools, Spark
-    - work4:
+    - work2:
       company: Politehnica University of Bucharest, Automatic Control and Computer Science
       location: Bucharest, Romania
       title: Associate Teaching Assistant
       started: 2012
       duration: Oct. 2012 - Feb. 2013
-      description: "I have been assisting students in solving the exercises from each Object Oriented Programming laboratory. My responsibilities were: explaining the OOP paradigms, providing help for solving the exercises and correcting and grading the assignments"
-    - work5:
+      description: >
+        I assisted students in solving the exercises from each Object Oriented Programming laboratory. My
+        responsibilities were: explaining the OOP paradigms, providing help for solving the exercises and correcting
+        and grading the assignments.
+    - work1:
       company: Teamnet International
       location: Bucharest, Romania
       title: Java Developer
       started: 2011
       duration: Jun. 2011 - Jun. 2013
-      description: I helped develop new features and  fix existing bugs in a JavaEE Web Application designed to process European Union Funding requests
+      description: >
+        I helped develop new features and fix existing bugs in a JavaEE Web Application designed to process European
+        Union Funding requests. Together with the rest of the team, we also developed a Groovy on Grails governmental
+        application with the scope of managing personal data and authorising personnel access to PII information.
       technologies: Java, Hibernate, Seam, Birt , Groovy on Grails, jQuery, Selenium, Spring, Solr, Nutch
   educationHistory:
     - education1:
@@ -73,7 +107,7 @@ author:
       degree: Master of Science in Engineering
       major: Management in Information Technology
       started: 2013
-      duration: (2013 - 2015)
+      duration: 2013 - 2015
       description:  "Thesis: Comparison between management styles in IT -Team Leadership versus People Management."
     - education2:
       organization: Politehnica University of Bucharest, Automatic Control and Computer Science
@@ -81,15 +115,15 @@ author:
       degree: Engineer
       major: Bachelor of Science in Engineering
       started: 2009
-      duration: (2009 - 2012)
+      duration: 2009 - 2013
       description:  "Thesis: Formation Flight for Unmanned Aerial Vehicles"
     - education3:
-      organization: "National High-school \"Nicolae Balcescu\""
+      organization: "National High-school \"Nicolae B&#259;lcescu\""
       location: Braila, Romania
       degree: Bacalaureat
       major: Mathematics and Informatics.
       started: 2005
-      duration: (2005 - 2015)
+      duration: 2005 - 2009
       description: "High-school is high-school... we all know how it goes"
   languages:
     - language1:
@@ -116,23 +150,23 @@ author:
         value: TNI, ONI, Severin Bumbaru, Moisil, Infoeducatie
       - hobby5:
         name: Misc
-        value: Airplanes, Driving, Swimming
+        value: Motorbykes, Airplanes, Driving
   programmingSkills:
     - skill1:
-      name: Java/Java EE, Spring,
+      name: Java/Java EE, Spring Cloud
       percentage: 90%
     - skill2:
       name: Maven, Git, Junit, Mockito
       percentage: 85%
     - skill3:
-      name: Hibernate, Netflix Stack (Histrix, Archaius)
+      name: Hibernate, Netflix Stack (Hollow, Hystrix, Archaius)
       percentage: 70%
     - skill4:
       name: Groovy on Grails, C/C++, Docker, Cassandra, Spark
       percentage: 60%
     - skill5:
       name: Akka, Seam, Wicket, Shell
-      percentage: 55%
+      percentage: 35%
     - skill6:
       name: Atlastian Tools
-      percentage: 50%
+      percentage: 60%
